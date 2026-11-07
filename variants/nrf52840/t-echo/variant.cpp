@@ -51,4 +51,7 @@ void variant_shutdown()
     pinMode(PIN_EINK_DC, INPUT);
     pinMode(PIN_EINK_RES, INPUT);
     pinMode(PIN_EINK_BUSY, INPUT);
+
+    pinMode(PIN_POWER_EN, OUTPUT);
+    digitalWrite(PIN_POWER_EN, LOW);
 }
